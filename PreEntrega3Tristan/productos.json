@@ -1,0 +1,46 @@
+[
+    {
+       "id": 2,
+       "categorias": [
+          "monster",
+          "secret rare"
+       ],
+       "nombre": "Guardian Chimera",
+       "precio": 32.46,
+       "exchange_rate": "USD",
+       "imgUrl": "https://ms.yugipedia.com//thumb/1/12/GuardianChimera-BACH-EN-ScR-1E.png/300px-GuardianChimera-BACH-EN-ScR-1E.png"
+    },
+    {
+       "id": 5,
+       "categorias": [
+          "spell",
+          "common"
+       ],
+       "nombre": "Dark Hole",
+       "precio": 0.4,
+       "exchange_rate": "USD",
+       "imgUrl": "https://ms.yugipedia.com//thumb/0/0c/DarkHole-OP12-EN-C-UE.png/300px-DarkHole-OP12-EN-C-UE.png"
+    },
+    {
+       "id": 8,
+       "categorias": [
+          "monster",
+          "ultra rare"
+       ],
+       "nombre": "Baronne de Fleur",
+       "precio": 82.07,
+       "exchange_rate": "USD",
+       "imgUrl": "https://ms.yugipedia.com//thumb/f/f6/BaronnedeFleur-LED8-EN-UR-1E.png/300px-BaronnedeFleur-LED8-EN-UR-1E.png"
+    },
+    {
+       "id": 9,
+       "categorias": [
+          "monster",
+          "secret rare"
+       ],
+       "nombre": "Aluber the Jester of Despia",
+       "precio": 5.18,
+       "exchange_rate": "USD",
+       "imgUrl": "https://ms.yugipedia.com//thumb/f/f8/AlubertheJesterofDespia-MP22-EN-PScR-1E.png/300px-AlubertheJesterofDespia-MP22-EN-PScR-1E.png"
+    }
+ ]

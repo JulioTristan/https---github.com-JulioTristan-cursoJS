@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
-    />
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    <title>TCGChange</title>
-  </head>
-  <body>
-    <h1 style="text-align: center" id="titulo">TCGChange</h1>
-    <h3 style="text-align: center">Cartas disponibles</h3>
-    <p></p>
-    <input
-      id="buscador"
-      placeholder="Buscador"
-      style="width: 60vh; display: block; margin: auto"
-    />
-    <p></p>
-    <div
-      id="contenedorProductos"
-      style="
-        display: flex;
-        margin: 0 3vh;
-        border: 2px solid white;
-        justify-content: space-between;
-        padding: 2vh;
-      "
-    ></div>
-    <h4 style="text-align: center" id="balance"></h4>
-    <h3 style="text-align: center">Agrega a tu Cartera las siguientes cartas</h3>
-    <div
-      id="contenedorCarrito"
-      style="
-        display: flex;
-        margin: 0 3vh;
-        border: 2px solid white;
-        justify-content: space-between;
-        padding: 2vh;
-      "
-    > 
-  </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <title>TCGChange</title>
+</head>
+
+<body>
+  <h1 style="text-align: center" id="titulo">TCGChange</h1>
+
   <p></p>
-  <div
-  id="contenedorTotal"
-  style="
+  <button id="balance" placeholder="Ingrese el credito que desea tener"
+    style="width: 20vh; display: block; margin: auto">Ingresa tu credito</button>
+    <div id="total" style="text-align:center"></div><p></p>
+  <p></p>
+  <p></p>
+  <h3 style="text-align: center">Cartas disponibles</h3>
+  <div style="text-align:center">Buscador: <input id="buscador" style="width: 60vh; display: block; margin: auto" />
+  </div>
+
+  <p></p>
+  <div id="contenedorProductos" style="
+        display: flex;
+        margin: 0 3vh;
+        border: 2px solid white;
+        justify-content: space-between;
+        padding: 2vh;
+      "></div>
+  <h4 style="text-align: center" id="balance"></h4>
+  <h3 style="text-align: center">Agrega a tu Cartera las siguientes cartas</h3>
+  <div id="contenedorCarrito" style="
+        display: flex;
+        margin: 0 3vh;
+        border: 2px solid white;
+        justify-content: space-between;
+        padding: 2vh;
+      ">
+  </div>
+  
+  <p></p>
+  <div id="contenedorTotal" style="
     margin: 2vh;
     border: 2px solid white;
     justify-content: space-between;
     padding: 2vh;
-  "
-> 
-</div>
-    <script src="./script.js"></script>
-  </body>
+  ">
+  </div>
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
 </html>
